@@ -17,7 +17,7 @@ class LetterDisplay {
   
 
 // This will store the audio clips
-  private short[][] AudioClips;// = new short [lastLetter][];
+  private short[][] AudioClips;
 
 // Audio Files
   private String[] audioFileArray = {"LtrA96K.wav","LtrB32K.wav",
@@ -52,7 +52,7 @@ class LetterDisplay {
 
 // this will be the AudioPlayer that handles the sounds.                
   private AudioPlayer player;
-  private AudioPlayer[] players; // = new AudioPlayer[26];
+  private AudioPlayer[] players;
 
 // this will contain an array of all the letter images
   private PImage[] Letter = new PImage[lastLetter];
